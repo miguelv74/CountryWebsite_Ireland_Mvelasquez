@@ -1,0 +1,6 @@
+.container{
+    display:flex;
+}
+#banner{
+    flex:1;
+}
