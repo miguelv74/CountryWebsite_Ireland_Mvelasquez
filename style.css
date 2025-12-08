@@ -7,3 +7,27 @@
 h1{
     text-align: center;
 }
+#banner{
+    background-image:url(https://www.insightvacations.com/wp-content/uploads/2023/09/Large-Scenic-view-of-landscape-and-mountains-against-skyRing-of-KerryIreland-1298722840.jpg);
+}
+#navegation_bar{
+    background-color: coral;
+}
+#info{
+    align-items: center;
+}
+.body{
+    display:flex;
+}
+#info{
+    flex:2;
+    align-items: middle;
+}
+#image{
+    flex:1;
+    border: 3px solid rgb(0, 0, 0);
+    padding-left: 85px;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
