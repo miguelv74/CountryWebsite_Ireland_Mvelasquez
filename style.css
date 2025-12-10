@@ -13,21 +13,8 @@ h1{
 #navegation_bar{
     background-color: coral;
 }
-#info{
-    align-items: center;
-}
-.body{
-    display:flex;
-}
-#info{
-    flex:2;
-    align-items: middle;
-}
-#image{
-    flex:1;
-    border: 3px solid rgb(0, 0, 0);
-    background-color: gray;
-    justify-content: bottom;
+#pic1{
+    width:200px;
 }
 h2{
     font-family: Arial, Helvetica, sans-serif;
