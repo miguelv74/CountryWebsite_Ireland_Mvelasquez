@@ -4,26 +4,34 @@
 .container div{
     flex:1;
 }
-.container nav{
-    flex:1
+#nav_bar a{
+    flex:1;
+}
+nav{
+    align-items: center;
 }
 h1{
     text-align: center;
 }
 #banner{ 
-    background-image:url(https://www.insightvacations.com/wp-content/uploads/2023/09/Large-Scenic-view-of-landscape-and-mountains-against-skyRing-of-KerryIreland-1298722840.jpg);
+    background-image:url(https://cdn.mos.cms.futurecdn.net/FRdq8ZbPetwNDRV9R3hYpP-1920-80.jpg);
+    background-size: 800px;
 }
-#navegation_bar{
+#nav_bar{
     background-color: coral;
     height: 100px;
     align-items: center;
+    border: 4px solid black;
 }
+
 #image{
     display: flex;
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/45/Flag_of_Ireland.svg);
     background-size:950px;
     width: 50px;
     border: 4px solid black;
+    border-radius: 67px;
+    background-color: green
 }
 #pic1{
     width: 50px;
@@ -36,7 +44,7 @@ h1{
 #image:hover {
    background-image: url(https://images.ireland.com/media/Images/amazing-landscapes/5079b776bd3645da95169ccd51f4278d.jpg);
    background-size: cover;
-   transition: all 0.3s ease-in-out
+   transition: all 1s ease-in-out
 }
 h2{
     font-family: Georgia, serif;
@@ -49,11 +57,17 @@ h2{
 .footer div{
     flex:1;
 }
+.footer h4:hover{
+    font-size: 20px;
+    text-decoration: underline;
+    transition: all 0.5s ease-in-out
+}
 #underline{
      text-decoration: underline;
 }
 .body{
     height: 700px;
+    background-color: forestgreen
 }
 a {
   font-size: 35px;
@@ -62,4 +76,23 @@ a {
 }
 a:hover {
   font-size: 40px;
+   transition: all 0.5s ease-in-out
+}
+#info{
+    background-image: url(https://cdn.artphotolimited.com/images/57efc70e14ad43004fef1117/1000x1000/falasies-de-moher.jpg);
+    
+}
+#info h2:hover{
+    color:yellow;
+    text-decoration: underline;
+    font-size: 25px;
+    transition: all 0.5s ease-in-out
+}
+body {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0;
+}
+.hist{
+    background-image: url(https://www.shutterstock.com/image-photo/epic-black-white-views-cliffs-600nw-1034715736.jpg);
 }
