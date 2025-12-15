@@ -68,7 +68,7 @@ h2{
     text-decoration: underline;
     transition: all 0.5s ease-in-out
 }
-#underline{
+.underline{
      text-decoration: underline;
 }
 .body{
@@ -85,6 +85,9 @@ a:hover {
    transition: all 0.5s ease-in-out
 }
 #info{
+    word-wrap: break-word; /* Deprecated but widely supported */
+    word-break: break-word; /* Modern equivalent for most cases */
+    overflow-wrap: break-word;
     background-image: url(https://cdn.artphotolimited.com/images/57efc70e14ad43004fef1117/1000x1000/falasies-de-moher.jpg);
 }
 #info h2:hover{
@@ -110,6 +113,10 @@ body {
     background-position: center;
     background-image:url(https://images.immediate.co.uk/production/volatile/sites/7/2017/03/GettyImages-876360492-d2f3aec.jpg?quality=90&webp=true&resize=1000,667)
 }
+#img_hist1:hover{
+    background-image: url(https://m.media-amazon.com/images/I/A1j9svJpyoL._AC_UF894,1000_QL80_.jpg);
+    transition: all 0.5s ease-in-out;
+}
 #img_hist2{
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY6i4N-PwkOy1CC5xVl_jbas4SoYDHL33lww&s);
     background-repeat: no-repeat;
@@ -119,6 +126,29 @@ body {
     border: 4px solid black;
     border-radius: 67px;
 }
+#img_hist2:hover{
+    background-image: url(ireking.jpg);
+    transition: all 0.5s ease-in-out;
+}
 #body_hist{
     background-color:gray ;
+}
+#info_hist{
+    background-image: url(https://cloudfront-eu-central-1.images.arcpublishing.com/irishtimes/L5Q4UZLDPSDT7OZKAD4ZNRUVAQ.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+#info_hist h1{
+    color:white
+}
+h3:hover{
+    color:yellow;
+    text-decoration: underline;
+    font-size: 25px;
+    transition: all 0.5s ease-in-out
+}
+#hist{
+    background-color: gray;
 }
