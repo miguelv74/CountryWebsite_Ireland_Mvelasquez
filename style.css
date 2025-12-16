@@ -84,6 +84,10 @@ h2{
     height: 700px;
     background-color: gray
 }
+.body3{
+    height: 700px;
+    background-color:purple
+}
 a {
   font-size: 35px;
   color:green;
@@ -207,6 +211,73 @@ h2:hover{
     background-size: cover;
 }
 .footer_ws{
+    border: 4px solid black;
+    border-radius: 50px;
+}
+#gal_pics{
+    background-image: url(landscape.webp);
+    flex:2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+}
+#gal_pics:hover{
+    filter: grayscale(0%);
+    transition: all 0.5s ease-in-out
+}
+#gal_pics2{
+    background-image: url(https://www.foratravel.com/_next/image?url=https%3A%2F%2Fmedia.foratravel.com%2Fimage%2Fupload%2Fv1730808963%2Fcontentful-migration%2FcomponentImage%2Ffile%2Fs09oexuyq3ldivnykbri.jpg&w=3840&q=50);
+    flex:2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+}
+#gal_pics2:hover{
+    filter: grayscale(0%);
+    transition: all 0.5s ease-in-out
+}
+#gal_pics3{
+    background-image: url(https://as1.ftcdn.net/jpg/01/71/03/82/1000_F_171038274_JW4yWBDuwmw15736wa3WzlqpvVdIL4iU.jpg);
+    flex:1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+}
+#gal_pics3:hover{
+    filter: grayscale(0%);
+    transition: all 0.5s ease-in-out
+}
+#gal_pics4{
+    background-image: url(https://static.wixstatic.com/media/5125f0_fe9149093712482ebaedfe647afa3a71~mv2.jpg/v1/fill/w_640,h_838,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/5125f0_fe9149093712482ebaedfe647afa3a71~mv2.jpg);
+    flex:1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+}
+#gal_pics4:hover{
+    filter: grayscale(0%);
+    transition: all 0.5s ease-in-out
+}
+.gallery{
+    display: flex;
+}
+.gallery h1{
+    flex:1;
+}
+.gal_info{
+    text-align: center;
+}
+.border{
+    border: 4px solid greenyellow;
+    border-radius: 30px;
+}
+#purple{
+    background-color: purple;
+}
+.container iframe{
+    flex: 1;
+}
+iframe{
     border: 4px solid black;
     border-radius: 50px;
 }
